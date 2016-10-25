@@ -78,8 +78,13 @@ p {
 
 #photos>div {
     position: absolute;
+<<<<<<< HEAD
     width: calc((245px + 5px * 2) * 4); /* use #photos img width here */
     height: calc((236px + 5px * 2) * 2); /* use #photos img height here */
+=======
+    width: calc((245px + 15px * 2) * 4); /* use #photos img width here */
+    height: calc((236px + 15px * 2) * 2); /* use #photos img height here */
+>>>>>>> b873235fa715e88481a739d192daf4d013f4be18
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -89,7 +94,11 @@ p {
 
 #photos canvas {
     box-sizing: content-box;
+<<<<<<< HEAD
     padding: 5px;
+=======
+    padding: 15px;
+>>>>>>> b873235fa715e88481a739d192daf4d013f4be18
     border: none;
     display: block;
     width: 245px;
@@ -298,10 +307,13 @@ ul.timeline li:active .details {
 
 .result {
     text-align: center;
+<<<<<<< HEAD
     background-color: white;
     padding: 0.3em;
     width: 50%;
     margin: 0 auto;
+=======
+>>>>>>> b873235fa715e88481a739d192daf4d013f4be18
 }
 
 .result .cancel-button {

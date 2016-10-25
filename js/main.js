@@ -88,13 +88,21 @@
     startbutton = document.getElementById('startbutton');
     camerabutton = document.getElementById('camerabutton');
 
+<<<<<<< HEAD
+=======
+    createBackgroundSelfies();
+
+>>>>>>> b873235fa715e88481a739d192daf4d013f4be18
     // wait for Montserrat to be loaded
     // video wrapper is hidden at first to prevent weird flashing on page load
     // in theory document.fonts.ready works in FF and Chrome, but it doesn't, so use a hacky timeout instead
     setTimeout(function() {
       $("#video-wrapper").removeClass("no-display");
       resizeCanvas();
+<<<<<<< HEAD
       createBackgroundSelfies();
+=======
+>>>>>>> b873235fa715e88481a739d192daf4d013f4be18
     }, 100);
 
     // Event listeners
@@ -445,12 +453,20 @@
       {"filename": "Caroline Kelly_CB.JPG", "caption": "I have never been the type of person to stay quiet about what I think is right!" },
       {"filename": "Carrie & Margaret.jpg", "caption": "of my daughter, and the world she will inherit." },
       {"filename": "Erin Rowley_CB.JPG", "caption": "women are now voting in a greater percentage than men. Yet as a woman it takes more than that to make my rights equal" },
+<<<<<<< HEAD
       {"filename": "Jane Ruby.png", "caption": "empowered women deserve to be heard and change happens both individually and collectively." },
+=======
+      {"filename": "Jane Ruby.png", "caption": "" },
+>>>>>>> b873235fa715e88481a739d192daf4d013f4be18
       {"filename": "Julia Viani_CB.JPG", "caption": "every vote counts, and I want to elect someone who will protect my rights & create a safe nation." },
       {"filename": "Julie Fraga & Lucy.jpg", "caption": "helping to elect the first female president models to my daughter that women can rise to leadership positions." },
       {"filename": "Katie & Lucy_CB (color).jpg", "caption": "I have two daughters & I want them to grow up in a country that view females not as sexual objects but as individuals" },
       {"filename": "Monica & Francisca_CB.jpg", "caption": "I can make a difference for my children by ensuring a better future." },
+<<<<<<< HEAD
       {"filename": "Ray & Jill_CB.jpg", "caption": "we believe in unity rather than division, celebrating differences rather than condemning them & love rather than hate" },
+=======
+      {"filename": "Ray & Jill_CB.jpeg", "caption": "we believe in unity rather than division, celebrating differences rather than condemning them & love rather than hate" },
+>>>>>>> b873235fa715e88481a739d192daf4d013f4be18
       {"filename": "bob-villaflor.jpg", "caption": "my non-gender conforming child will be able to grow up in a world free of discrimination." },
       {"filename": "christy-johnston.JPG", "caption": "women's rights are human rights. As a mother to a daughter, it's important we continue to move forward, not backward" },
       {"filename": "graham-campbell.jpg", "caption": "as a DC resident this is the only vote I have that matters nationally. It's important that I stand up & be counted." },

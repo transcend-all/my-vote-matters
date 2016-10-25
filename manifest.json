@@ -5,11 +5,14 @@
 			"src": "\/android-chrome-192x192.png",
 			"sizes": "192x192",
 			"type": "image\/png"
+<<<<<<< HEAD
 		},
 		{
 			"src": "\/android-chrome-512x512.png",
 			"sizes": "512x512",
 			"type": "image\/png"
+=======
+>>>>>>> b873235fa715e88481a739d192daf4d013f4be18
 		}
 	],
 	"theme_color": "#ffffff",
